@@ -38,7 +38,7 @@ public class Collectors {
       salwatorskieZiomki.add(clonedCollectorS2);
       System.out.println("CollectorS2 : " + clonedCollectorS2.getName());
       
-      rakowickieZiomki.elementAt(0).giveDatek(7);
+      rakowickieZiomki.elementAt(0).giveDatek(7,[(Dyszka) NominalCache.getNominal("10")]);
       rakowickieZiomki.elementAt(1).giveDatek(17.6);
       
       salwatorskieZiomki.elementAt(0).giveDatek(1500);
