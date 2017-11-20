@@ -35,7 +35,8 @@ class Flight implements flightInterface {
     }
     
     private double calculateCosts() {
-        return (distance / 100) * plane.litersPer100km * 4.69 + plane.crewNo * plane.crewSalary;
+        return (distance / 100) * plane.litersPer100km * 4.69
+                + plane.crewNo * plane.crewSalary;
     }
     
     public Flight(int pN, int d, int tP) {
